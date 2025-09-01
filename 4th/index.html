@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collage from</title>
+    <link rel="stylesheet" href="collage.css">
+</head>
+<body>
+    <div class="from-container">
+        <h2>collage Admission from</h2>
+        <form action="collage.html">
+            <label for="name">full name:</label>
+            <input type="text" id ="name" name="name" placeholder="enter your name" required>
+            <label for="email">email id:</label>
+            <input type="text" id="email" name="email" placeholder="enter your email" required>
+            <label for="phone">phone number:</label>
+            <input type="number" id="phone" name="phone" placeholder="enter your phone number" required>
+
+            <div class="gender-group">
+                <label for="gender">gender:</label>
+                <label for=""><input type="radio" name="gender" value="male">male</label>
+                <label for=""><input type="radio" name="gender" value="femel">femil</label>
+                <label for=""><input type="radio" name="gender" value="other">other</label>
+            </div>
+
+            <label for="course"> select course</label>
+            <select name="course" id="course">
+                <option value="bca">BCA</option>
+                <option value="bba">BBA</option>
+                <option value="bcom">BCOM</option>
+                <option value="bsc">BSC</option>
+                <option value="btech">BTECH</option>
+                <option value="mca">MCA</option>
+                <option value="mba">MBA</option>
+                <option value="mcom">MCOM</option>
+                <option value="msc">MSC</option>
+                <option value="mtech">MTECH</option>
+            </select>
+            <label for="address">address:</label>
+            <textarea name="address" id="address" cols="" rows="4" placeholder="enter your address" required></textarea>
+            
+            <button>submit application</button>
+        </form>
+    </div>
+</body>
+</html>
